@@ -3,4 +3,4 @@ Allow: /
 
 Sitemap: https://hanna-j.github.io/sitemap.xml
 
-#DaumWebMasterTool:7b17b5df0673868d026461844a41a663c724c7f30e07896a4adef381a639417c:upewRfgI5y6IkdBZlCoHBQ==
+#DaumWebMasterTool:bf2682e501839bfb92b8ce83a6ebff21e4272c67d217ca2aa17fddfcdec1a2ac:upewRfgI5y6IkdBZlCoHBQ==
