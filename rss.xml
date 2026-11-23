@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>산책 기록</title>
+  <link>https://hanna-j.github.io/search/</link>
+  <description>서울에서 걸어 본 산책 코스를 짧게 정리한 개인 블로그입니다.</description>
+  <language>ko</language>
+  <item>
+    <title>낙산 성곽길 저녁 산책</title>
+    <link>https://hanna-j.github.io/search/walk-2.html</link>
+    <guid>https://hanna-j.github.io/search/walk-2.html</guid>
+    <description>혜화역에서 낙산공원을 지나 동대문까지 성곽을 따라 걷는 약 2km 코스입니다.</description>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>한강 반포에서 동작까지 걷기</title>
+    <link>https://hanna-j.github.io/search/walk-1.html</link>
+    <guid>https://hanna-j.github.io/search/walk-1.html</guid>
+    <description>반포한강공원에서 동작역까지 강변을 따라 걷는 약 3km 코스입니다.</description>
+    <pubDate>Mon, 23 Nov 2026 11:00:00 +0900</pubDate>
+  </item>
+</channel>
+</rss>
