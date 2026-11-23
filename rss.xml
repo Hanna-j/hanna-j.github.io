@@ -6,18 +6,34 @@
   <description>서울에서 걸어 본 산책 코스를 짧게 정리한 개인 블로그입니다.</description>
   <language>ko</language>
   <item>
+    <title>한강 야경 산책, 잠수교에서 반포까지</title>
+    <link>https://hanna-j.github.io/blog/2026/11/hangang-night-walk/</link>
+    <guid>https://hanna-j.github.io/blog/2026/11/hangang-night-walk/</guid>
+    <description>잠수교에서 반포 달빛무지개분수까지 밤에 걸은 기록입니다.</description>
+  </item>
+  <item>
+    <title>한강 보행로 2.4km 늘어난다…반포~동작 구간 연말 개통</title>
+    <link>https://hanna-j.github.io/news/2026/11/23/hangang-trail-extension/</link>
+    <guid>https://hanna-j.github.io/news/2026/11/23/hangang-trail-extension/</guid>
+    <description>반포에서 동작까지 끊겨 있던 한강 보행로가 연말 이어진다.</description>
+  </item>
+  <item>
+    <title>산책 도시락: 한입 꼬마김밥</title>
+    <link>https://hanna-j.github.io/recipes/walk-snack/mini-gimbap/</link>
+    <guid>https://hanna-j.github.io/recipes/walk-snack/mini-gimbap/</guid>
+    <description>산책 갈 때 들고 가기 좋은 꼬마김밥 만드는 법</description>
+  </item>
+  <item>
     <title>낙산 성곽길 저녁 산책</title>
     <link>https://hanna-j.github.io/walk-2.html</link>
     <guid>https://hanna-j.github.io/walk-2.html</guid>
     <description>혜화역에서 낙산공원을 지나 동대문까지 성곽을 따라 걷는 약 2km 코스입니다.</description>
-    <pubDate>Mon, 23 Nov 2026 12:00:00 +0900</pubDate>
   </item>
   <item>
     <title>한강 반포에서 동작까지 걷기</title>
     <link>https://hanna-j.github.io/walk-1.html</link>
     <guid>https://hanna-j.github.io/walk-1.html</guid>
     <description>반포한강공원에서 동작역까지 강변을 따라 걷는 약 3km 코스입니다.</description>
-    <pubDate>Mon, 23 Nov 2026 11:00:00 +0900</pubDate>
   </item>
 </channel>
 </rss>
