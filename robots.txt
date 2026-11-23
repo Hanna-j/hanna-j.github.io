@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://hanna-j.github.io/sitemap.xml
+
+#DaumWebMasterTool:7b17b5df0673868d026461844a41a663c724c7f30e07896a4adef381a639417c:upewRfgI5y6IkdBZlCoHBQ==
