@@ -1,6 +1,47 @@
+# 산책 기록 테스트 사이트 robots.txt (2026-11-23)
+# 웹마스터 도구와 크롤러의 robots.txt 해석을 시험하려고 일부러 복잡하게 썼다.
+# 주의: 로봇은 자기 이름이 적힌 그룹이 있으면 그 그룹만 따르고 * 그룹은 무시한다.
+
+# 1) 이름이 따로 적히지 않은 모든 로봇
 User-agent: *
-Allow: /
+Disallow: /private/
+Allow: /private/public-note/
+Disallow: /admin/
+Disallow: /*?*sort=
+Disallow: /*.pdf$
+Crawl-delay: 5
+
+# 2) 네이버: 공통 규칙을 다시 적고, 상점을 더 막는다
+User-agent: Yeti
+Disallow: /private/
+Allow: /private/public-note/
+Disallow: /admin/
+Disallow: /shop/
+
+# 3) Daum: 게시판만 막는다. 공통 규칙을 다시 적지 않았으므로 /private/ · /admin/ 은 막히지 않는다
+User-agent: Daum
+Disallow: /community/
+
+# 4) Google: 질문 게시판을 막되 채택 질문 하나는 연다. 공통 규칙도 다시 적는다
+User-agent: Googlebot
+Disallow: /private/
+Allow: /private/public-note/
+Disallow: /admin/
+Disallow: /qna/
+Allow: /qna/2026/11/namsan-loop-time/
+
+# 5) 카카오: API 문서를 막는다. 이름을 소문자로 적어 대소문자 구분 여부를 시험한다
+User-agent: kakaobot
+Disallow: /docs/api/
+Disallow: /private/
+
+# 6) AI 학습 · 답변용 로봇: 전부 막는다
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+Disallow: /
 
 Sitemap: https://hanna-j.github.io/sitemap.xml
+Sitemap: https://hanna-j.github.io/rss.xml
 
 #DaumWebMasterTool:bf2682e501839bfb92b8ce83a6ebff21e4272c67d217ca2aa17fddfcdec1a2ac:upewRfgI5y6IkdBZlCoHBQ==
